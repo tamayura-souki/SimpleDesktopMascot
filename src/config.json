@@ -1,0 +1,5 @@
+{
+    "app_name" : "DesktopMascot",
+    "image_folder" : "image",
+    "image_change_interval" : 60
+}
