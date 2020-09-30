@@ -26,7 +26,7 @@ class ImageViewer(QtWidgets.QGraphicsView):
         photo.setPixmap(pixel)
         scene.addItem(photo)
         self.setScene(scene)
-        self.setGeometry(0,0,image.width(), image.height())
+        self.setGeometry(self.x(), self.y(),image.width(), image.height())
 
     def mousePressEvent(self, event):
         if event.button() != QtCore.Qt.LeftButton:
@@ -112,7 +112,7 @@ class Main(QtWidgets.QMainWindow):
 
     def setImage(self, image:QtGui.QImage):
         self.viewer.setImage(image)
-        self.setGeometry(0,0,image.width(), image.height())
+        self.setGeometry(self.x(), self.y(), image.width(), image.height())
 
         mask = QtGui.QPixmap.fromImage(image.createAlphaMask())
         self.setMask(mask)
