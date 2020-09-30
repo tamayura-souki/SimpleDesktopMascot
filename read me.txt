@@ -1,0 +1,39 @@
+-----------------------------------------------------------------------
+	SimpleDesktopMascot version 0.1		by 珠響そうき
+-----------------------------------------------------------------------
+
+── はじめに ──
+    imageフォルダ内の画像を表示するだけのソフト。
+    画面端に置いて、作業のお供にどうぞ。
+
+── おねがい ──
+	このソフトは私、珠響そうきが未熟ながら趣味で製作しているものです。
+	予期せぬバグや、使いにくいところなどあると思いますので、githubのissueにて報告していただけると幸いです。
+	それから、お強い方はソースコードをgithubで公開しているので、好きなようにカスタマイズしてください。
+
+── 使い方 ──
+    image フォルダ内に画像をぶちこんで起動するだけ。
+    左クリックで表示されるメニューから終了できます。
+
+    config.jsonの説明
+        "app_name"
+            タスクマネージャ等で表示される名前を変えられます。
+
+        "image_folder"
+            表示したい画像の入ったフォルダを指定してください。
+            .png と .jpg ファイルのみ読み込めます。
+        "image_change_interval"
+            画像がランダムで切り替わる時間を秒(s)単位で入力してください。
+
+── リンク ──
+Twitter : https://twitter.com/tamayurasouki
+Github : https://github.com/tamayura-souki/SimpleDesktopMascot
+Youtube : https://www.youtube.com/channel/UCRQ6fe53K3Qh-6FzPaGMUXw
+
+── 履歴 ──
+2020/10/01 ver 0.1
+    とりあえず動くからヨシ。
+
+── 使用したライブラリ様 ──
+・PySide2
+https://pypi.org/project/PySide2/
