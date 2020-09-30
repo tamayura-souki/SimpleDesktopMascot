@@ -1,4 +1,9 @@
 .vscode
+dist
+build
+__pycache__
+
+**.spec
 
 **hogehoge**
 src/image
